@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  display: flex;
+  padding: 12px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background: #eee;
+}
+
+#nav {
+  display: flex;
+  width: 768px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.archive {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.archive-left-arrow {
+  width: 7px;
+  height: 12px;
+  fill: #444;
+}
+
+.archive-main-text {
+  color: #444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+}
+
+.nav-main-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-filler {
+  display: flex;
+  width: 109.319px;
+  height: 52.057px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* #add {
+  display: flex;
+  width: 768px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #bfbfbf;
+} */
+
+#add {
+  display: flex;
+  width: 720px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 23px;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.add-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.add-checkbox-filled {
+  width: 16px;
+  height: 16px;
+  fill: #444;
+}
+
+.add-main-text {
+    color: #444;
+    width: 629px;
+    font-family: Poppins;
+    font-size: 16px;
+    margin: -6px;
+    padding-bottom: 4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 20px */
+}
+
+p:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+  }
+
+.add-submit {
+  width: 16px;
+  height: 12.008px;
+  flex-shrink: 0;
+  fill: #000;
+}
+
+.add-main-text:focus {
+  outline: none;
+}
+
+#tasks {
+  display: flex;
+  width: 768px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.task {
+  display: flex;
+  width: 720px;
+  padding: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 10px 16px 0px rgba(22, 22, 22, 0.05);
+}
+
+p:focus {
+  outline: none;
+}
+
+.task-checkbox {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #000;
+}
+
+.task-text {
+  flex: 1 0 0;
+  color: #000;
+  margin: -4px;
+  position: relative;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 579px;
+  width: 579px;
+  word-break: break-all;
+  overflow-wrap: normal;
+}
+
+.task-edit {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: #000;
+}
+
+.task-delete {
+  width: 12px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: #000;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
